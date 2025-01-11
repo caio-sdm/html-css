@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonte em css</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(inches), px, pt(pontos 1pt = 1.66px), pc(paica 1pc = 12pt)
+
+            Medidas Relativas
+            em [Altura atual da fonte(M maiúsuclo)], ex (altura do X minúsculo), rem (relativo à Root), vw(largura da viewport), vh(altura da viewport), %
+
+            16px = 1em (normalmente)
+            */
+            font-size: 16px;
+            font-weight: normal;
+            /*lighter, normal, bold, bolder*/
+            font-style: normal;
+        }
+        h1{
+            /*shorthand font
+            -font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em Arial;
+        }
+        h2{
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, vero cum quos, modi, quae ad praesentium dolor provident debitis possimus molestias quidem! Sapiente a voluptas ad architecto, harum excepturi sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure dolores commodi itaque quo hic. Praesentium possimus placeat in ex iusto voluptates. Modi in deserunt maxime ipsa minima necessitatibus, neque molestiae?</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure dolores commodi itaque quo hic. Praesentium possimus placeat in ex iusto voluptates. Modi in deserunt maxime ipsa minima necessitatibus, neque molestiae?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam magni esse incidunt voluptatem illo, quaerat omnis sit numquam. Fugiat laudantium eligendi, aperiam reprehenderit dolores voluptatem vel cumque tenetur asperiores doloribus?</p>
+</body>
+</html>

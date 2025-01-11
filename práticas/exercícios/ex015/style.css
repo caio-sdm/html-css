@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family:'Comic Sans MS', "Comic Sans", cursive;
+            text-align: center;
+        }
+        h1{
+            color:greenyellow;
+            background-color: goldenrod;
+        }
+   
