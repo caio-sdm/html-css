@@ -1,4 +1,5 @@
 title: pum xixi hehehehehehhe
 #coco
 #tem coco aqui em cima heheh
-remote_theme: pages-themes/cayman@v0.2.0
+show_downloads: true
+theme: jekyll-cayman
