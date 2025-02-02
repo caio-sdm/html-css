@@ -2,3 +2,7 @@
 
 /* aparelho em modo retrato (portrait) */
 
+body{
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
