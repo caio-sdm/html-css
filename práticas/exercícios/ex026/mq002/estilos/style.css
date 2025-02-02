@@ -10,12 +10,12 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: gainsboro;
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
 }
 h1{
     color: white;
-    text-shadow: 2px 2px 0px blue, -2px -2px 0px red;
+    text-shadow: 2px 2px 0px red;
     padding: 10px;
 }
