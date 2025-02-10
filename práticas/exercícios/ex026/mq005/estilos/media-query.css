@@ -14,7 +14,7 @@ tv/grandes telas: + 1920 */
     menu > ul > li {
         display: inline-block;
     }
-    menu > ul{
-        border-radius: 5px;
+    main{
+        width: 700px;
     }
 }
