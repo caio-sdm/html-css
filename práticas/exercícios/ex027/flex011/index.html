@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 009</title>
+    <style>
+        div.container{
+            background-color: burlywood;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.itens{
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            flex-basis: 200px;
+        }
+        div#a{
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        div#b{
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div#c{
+            flex-shrink: 8;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens" id="a">1</div>
+        <div class="itens" id="b">2</div>
+        <div class="itens" id="c">3</div>
+    </div>
+</body>
+</html>
