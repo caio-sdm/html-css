@@ -1,0 +1,14 @@
+div.conteiner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 20px;
+    
+    border: 2px dashed red;
+}
+
+div.item{
+    text-align: center;
+
+    border: 1px dashed green;
+}
