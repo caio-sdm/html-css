@@ -10,13 +10,14 @@
     justify-items: center;
     align-content: start;
     justify-content: end; */
-    place-items: stretch center;
-    place-content: start end;
+    place-items: stretch ;
+    place-content: stretch;
     grid-auto-rows: 100px;
     grid-auto-columns: 100px;
 } 
 
 .item
 {
+    margin: 10px;
     border: 1px dashed blue;
 }
